@@ -9,7 +9,7 @@ class Show < ActiveRecord::Base
    end
   end
   
-  def self.genre
+  def genre
     self.genre
   end
   
