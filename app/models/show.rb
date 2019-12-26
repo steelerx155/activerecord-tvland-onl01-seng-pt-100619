@@ -9,8 +9,6 @@ class Show < ActiveRecord::Base
    end
   end
   
-  def self.genre
-    "#{self.genre}"
-  end
+ 
   
 end
