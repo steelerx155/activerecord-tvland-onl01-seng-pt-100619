@@ -1,5 +1,5 @@
 class Show < ActiveRecord::Base
-  has_one :genres
+  
   has_many :characters
   belongs_to :network
   has_many :actors, through: :characters
